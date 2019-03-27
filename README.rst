@@ -1,5 +1,5 @@
 =============================
-Couchbase Stress TEST
+Couchbase Stress Test
 =============================
 
 This Couchbase Stress TEST by inseting data to specified bucket
