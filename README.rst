@@ -18,7 +18,7 @@ Install via ``pip3``:
 Usage example:
 --------------
 
-By default, it will bind to port 9420, query Couchbase on 127.0.0.1:8091 and run queries configured in an external module `StatsMetrics <https://github.com/brunopsoares/statsmetrics>`_.
+By default, query Couchbase on 127.0.0.1:8091 and run insert query.
 You can change these defaults as required by passing in options:
 
 .. code-block::
@@ -40,7 +40,6 @@ following environment variables:
    "COUCHBASE_PORT", "Couchbase port address", "8091"
    "COUCHBASE_USERNAME", "Couchbase username",
    "COUCHBASE_PASSWORD", "Couchbase password",
-   "PROMETHEUS_PORT", "Prometheus port to listen", "9420"
    "MAX_WORKERS", "Number of thread to execute the calls asynchronously", "1"
    "RANGE", "How many inserts to couchbase", "1000"
 
@@ -48,4 +47,4 @@ Running the container
 
 .. code-block::
 
-   docker run -t -i -p 9420:9420 -e COUCHBASE_HOST=127.0.0.1 -e COUCHBASE_PORT=8091 billmoritz/couchbase-exporter
+   docker run -t -i -e COUCHBASE_HOST=127.0.0.1 -e COUCHBASE_PORT=8091 <image:tag>
