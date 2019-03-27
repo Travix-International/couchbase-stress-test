@@ -1,0 +1,2 @@
+couchbase==2.5.3
+requests>=2.21.0
