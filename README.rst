@@ -1,8 +1,8 @@
 =============================
-Couchbase STRESS TEST
+Couchbase Stress TEST
 =============================
 
-This COUCHBASE STESS TEST by inseting data
+This Couchbase Stress TEST by inseting data to specified bucket
 
 ----------
 
