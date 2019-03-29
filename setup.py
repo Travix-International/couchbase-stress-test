@@ -6,14 +6,14 @@ with open(path.join(path.abspath(path.dirname(__file__)), 'README.rst'), encodin
     long_description = f.read()
 
 setup(
-    name='couchbase-stress-test',
+    name='couchbase-stress-testing',
 
     version='1.0.0',
 
     description='Couchbase stress test',
     long_description=long_description,
 
-    url='https://github.com/Travix-International/couchbase-stress-test',
+    url='https://github.com/Travix-International/couchbase-stress-testing',
 
     # Author details
     author='Travix Internationals',
