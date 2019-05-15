@@ -13,7 +13,7 @@ Install via ``pip3``:
 
 .. code-block::
 
-   $ pip3 install couchbase-stress-test
+   $ pip3 install couchbase-stress-testing
 
 Usage example:
 --------------
